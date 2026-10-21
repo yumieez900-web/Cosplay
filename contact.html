@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Me</title>
+  </head>
+
+  <body class="inside-page">
+    <h2>Contact Us</h2>
+    <p>Have questions? Contact our shop!</p>
+    <p>Email: yumieez900@gmail.com</p>
+    <p>Facebook: Kz Jungco</p>
+
+    <form
+      action="mailto:yumieez900@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <input type="text" name="name" placeholder="Your Name" required />
+      <br /><br />
+
+      <input type="email" name="email" placeholder="Your Email" required />
+      <br /><br />
+
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <br /><br />
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <!-- SHOP LOCATION -->
+    <div class="shop-location">
+      <h2>Find My Shop</h2>
+      <p>Visit me or explore my location on Google Maps!</p>
+
+      <a
+        href="https://maps.app.goo.gl/SWCSeqgmrjWoy3qM9"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="map-link"
+      >
+        <iframe
+          src="https://maps.google.com/maps?q=YOUR%20SHOP%20ADDRESS&output=embed"
+          width="100%"
+          height="250"
+          style="border: 0"
+          loading="lazy"
+          title="Yuki-Coser's Shop location"
+        >
+        </iframe>
+      </a>
+
+      <p>
+        <a
+          href="https://maps.app.goo.gl/SWCSeqgmrjWoy3qM9"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="map-button"
+        >
+          View on Google Maps
+        </a>
+      </p>
+    </div>
+  </body>
+</html>
